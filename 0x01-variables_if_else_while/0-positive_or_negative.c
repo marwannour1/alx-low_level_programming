@@ -9,7 +9,7 @@
  * Description: check if number positive, negative
  * or equal to zero
  *
- * Retrun: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
