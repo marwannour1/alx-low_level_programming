@@ -6,7 +6,7 @@
 /**
  * main - Entry point
  *
- * Description: check if number greater than 5, 
+ * Description: check if number greater than 5
  * smaller than 6 or equal to zero
  *
  * Return: 0 (Success)
@@ -21,9 +21,9 @@ int main(void)
 	lastDigit = n % 10;
 	if (lastDigit > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, lastDigit);
-	else if (lastDigit < 6)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastDigit);
 	else if (lastDigit == 0)
-		printf("Last digit of %i is %i and is %i\n", n, lastDigit, lastDigit);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastDigit);
+	else if (lastDigit < 6)
+		printf("Last digit of %i is %i and is %i\n", n, lastDigit);
 	return (0);
 }
