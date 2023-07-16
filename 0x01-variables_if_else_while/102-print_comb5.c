@@ -10,21 +10,22 @@
 int main(void)
 {
 	int i = '0';
-	int j = '0';
-	int k = '0';
+	int j;
+	int k;
 	int l;
 
 
 	while (i <= '9')
 	{
+		j = 0;
 		while (j <= '8')
 		{
+			k = 0;
 			while (k <= '9')
 			{
 				l = j + 1;
 				while (l <= '9')
 				{
-
 					putchar(i);
 					putchar(j);
 					putchar(' ');
