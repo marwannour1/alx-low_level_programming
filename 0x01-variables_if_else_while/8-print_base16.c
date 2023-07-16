@@ -9,10 +9,12 @@
  */
 int main(void)
 {
-	char c = 'a';
+	char c = '0';
 
-	while (c <= 'z')
+	while (c <= 'f')
 	{
+		if (c == '9' + 1)
+			c += 'a' - '9' - 1;
 		putchar(c);
 		c += 1;
 	}

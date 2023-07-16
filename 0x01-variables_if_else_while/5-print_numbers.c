@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: print hex
+ * Description: print numbers
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	int n = 0;
 
-	while (c <= 'z')
+	while (n < 10)
 	{
-		putchar(c);
-		c += 1;
+		printf("%i", n);
+		n += 1;
 	}
 	putchar('\n');
 	return (0);

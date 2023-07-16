@@ -3,15 +3,15 @@
 /**
  * main - Entry point
  *
- * Description: print hex
+ * Description: print numbers
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	int c = '0';
 
-	while (c <= 'z')
+	while (c <= '9')
 	{
 		putchar(c);
 		c += 1;

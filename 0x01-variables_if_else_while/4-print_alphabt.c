@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print hex
+ * Description: print alphabet
  *
  * Return: Always 0 (Success)
  */
@@ -13,7 +13,8 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		putchar(c);
+		if (c != 'q' && c != 'e')
+			putchar(c);
 		c += 1;
 	}
 	putchar('\n');
