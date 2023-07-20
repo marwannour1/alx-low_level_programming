@@ -9,4 +9,5 @@ int _isupper(int c);
 
 int _isdigit(int n);
 
+int mul(int a, int b);
 #endif
