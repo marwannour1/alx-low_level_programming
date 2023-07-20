@@ -15,7 +15,15 @@ void times_table(void)
 	{
 		for (num2 = 0; num2 < 10; num2++)
 		{
-			_putchar('0' + (num1 * num2));
+			if (num1 * num2 > 10)
+			{
+				_putchar('0' + (num1 * num2) / 10);
+				_putchar('0' + (num1 * num2) % 10);
+			}
+			else
+			{
+				_putchar('0' + (num1 * num2));
+			}
 			_putchar(',');
 			if (num1 * num2 < 10)
 				_putchar(' ');
