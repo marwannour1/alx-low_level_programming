@@ -16,7 +16,7 @@ void more_numbers(void)
 		{
 			num = k;
 
-			while (k > 9)
+			if (k > 9)
 			{
 				_putchar('1');
 				num = k % 10;
