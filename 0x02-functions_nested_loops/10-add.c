@@ -9,7 +9,7 @@
   *Return: 1 if c is lower and 0 if not lower
   *
   */
-int add(int num1, num2)
+int add(int num1, int num2)
 {
 	return (num1 + num2);
 }
