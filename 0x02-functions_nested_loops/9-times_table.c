@@ -24,7 +24,7 @@ void times_table(void)
 			{
 				_putchar('0' + (num1 * num2));
 			}
-			if (num1 != 9)
+			if (num2 != 9)
 				_putchar(',');
 			if (num1 * num2 < 10)
 				_putchar(' ');
