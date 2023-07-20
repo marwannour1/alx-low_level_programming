@@ -26,7 +26,11 @@ void times_table(void)
 			}
 			if (num2 != 9)
 				_putchar(',');
-			if (num1 * (num2 + 1) < 10)
+			else
+			{
+				continue;
+			}
+			if (num1 * (num2 + 1) < 10 &&)
 				_putchar(' ');
 			_putchar(' ');
 		}
