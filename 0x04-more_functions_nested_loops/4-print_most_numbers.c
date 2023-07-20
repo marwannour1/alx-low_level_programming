@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  * print_numbers - checks if letter is upper
+  * print_most_numbers - checks if letter is upper
   *
   */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
