@@ -33,6 +33,7 @@ void print_times_table(int num)
 			if (num1 * (num2 + 1) < 10)
 				_putchar(' ');
 			_putchar(' ');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
