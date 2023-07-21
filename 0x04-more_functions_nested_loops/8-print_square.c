@@ -2,7 +2,7 @@
 
 /**
   * print_square - checks if letter is upper
-  * @n: number times
+  * @size: number times
   *
   */
 void print_square(int size)
