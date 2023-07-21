@@ -2,11 +2,11 @@
 
 /**
   * main - checks if letter is upper
-  * 
+  *
   * Return: Always 0 (success)
   *
   */
-int main()
+int main(void)
 {
 	int i;
 
