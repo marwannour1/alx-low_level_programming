@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * main - checks if letter is upper
+  * print_triangle - checks if letter is upper
   * size: size
   *
   */
