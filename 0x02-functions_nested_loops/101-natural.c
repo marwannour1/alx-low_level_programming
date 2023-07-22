@@ -18,5 +18,5 @@ int main(void)
 			result += i;
 	}
 	printf("%d", result);
-	return (0;)
+	return (0);
 }
