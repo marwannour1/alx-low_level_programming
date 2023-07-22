@@ -33,11 +33,11 @@ int main(void)
 	for (i = 0; i < 98; i++)
 	{
 		if (f1o > 0)
-			printf1("%lu", f1o);
+			printf("%lu", f1o);
 		initials = len_num(mx) - 1 - len_num(f1);
 		while (f1o > 0 && initials > 0)
 		{
-			printf("%d, 0");
+			printf("%d", 0);
 			initials -= 1;
 		}
 		printf("%lu", f1);
