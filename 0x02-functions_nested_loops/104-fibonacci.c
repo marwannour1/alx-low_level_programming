@@ -5,7 +5,7 @@
   *
   * Return : number of digits
   */
-int len_num(num)
+int len_num(int num)
 {
 	int length = 0;
 	if (!num)
