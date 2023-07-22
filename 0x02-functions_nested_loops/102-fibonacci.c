@@ -12,7 +12,7 @@ int main(void)
 	int num1 = 0;
 	int num2 = 1;
 	int i;
-	int sum
+	int sum;
 
 	printf("")
 	for (i = 0; i < 50; i++)
@@ -22,7 +22,7 @@ int main(void)
 		num1 = num2;
 		num2 = sum;
 		if (i != 49)
-			printf (", ");
+			printf(", ");
 		else
 			printf("\n");
 	}
