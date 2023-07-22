@@ -18,7 +18,13 @@ void print_times_table(int num)
 	{
 		for (num2 = 0; num2 <= num; num2++)
 		{
-			if (num1 * num2 >= 10)
+			if (num1 * num2 >= 100)
+			{
+				_putchar('0' + (num1 * num2) / 100);
+				_putchar('0' + ((num1 * num2) % 100) / 10);
+				_putchar('0' + (num1 * num2) % 100);
+			}
+			else if (num1 * num2 >= 10)
 			{
 				_putchar('0' + (num1 * num2) / 10);
 				_putchar('0' + (num1 * num2) % 10);
