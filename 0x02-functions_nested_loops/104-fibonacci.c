@@ -1,13 +1,15 @@
 #include <stdio.h>
 /**
   * len_num - find length of number
-  * @num : num to find length of
+  * @num: num to find length of number
   *
-  * Return : number of digits
+  * Description: find length
+  * Return: number of digits
   */
 int len_num(int num)
 {
 	int length = 0;
+
 	if (!num)
 		return (1);
 	while (num)
@@ -47,7 +49,7 @@ int main(void)
 		f1o = f2o;
 		f2 = sum;
 		f2o = sumo;
-		if (i != 98)
+		if (i != 97)
 			printf(", ");
 	}
 	printf("\n");
