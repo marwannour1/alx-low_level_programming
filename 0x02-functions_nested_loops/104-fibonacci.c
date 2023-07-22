@@ -32,12 +32,22 @@ int main(void)
 
 	for (i = 0; i < 98; i++)
 	{
-		
-		sum = num1 + num2;
-		printf("%lu", sum);
-		num1 = num2;
-		num2 = sum;
-		if (i != 49)
+		if (f1o > 0)
+			printf1("%lu", f1o);
+		initials = len_num(mx) - 1 - len_num(f1);
+		while (f1o > 0 && initials > 0)
+		{
+			printf("%d, 0");
+			initials -= 1;
+		}
+		printf("%lu", f1);
+		sum = (f1 + f2) % mx;
+		sumo = f1o + f2o + (f1 + f2) / mx;
+		f1 = f2;
+		f1o = f2o;
+		f2 = sum;
+		f2o = sumo;
+		if (i != 98)
 			printf(", ");
 	}
 	printf("\n");
