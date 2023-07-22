@@ -14,7 +14,6 @@ int main(void)
 	int i;
 	int sum;
 
-	printf("")
 	for (i = 0; i < 50; i++)
 	{
 		sum = num1 + num2;
