@@ -21,8 +21,8 @@ void print_times_table(int num)
 			if (num1 * num2 >= 100)
 			{
 				_putchar('0' + (num1 * num2) / 100);
-				_putchar('0' + ((num1 * num2) % 100) / 10);
-				_putchar('0' + (num1 * num2) % 100);
+				_putchar('0' + ((num1 * num2) / 10) % 10);
+				_putchar('0' + ((num1 * num2) % 10));
 			}
 			else if (num1 * num2 >= 10)
 			{
