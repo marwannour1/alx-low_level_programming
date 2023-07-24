@@ -7,11 +7,15 @@
 void print_number(int n)
 {
 	int divisor = 1;
-	int num = n;
+	int num;
 	int digit;
 
-	if (num < 0)
+	if (n < 0)
+	{
 		_putchar('-');
+		n *= -1;
+	}
+	num = n;
 	while (num < -9 || num > 9)
 	{
 		num /= 10;
