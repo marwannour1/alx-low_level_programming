@@ -17,7 +17,7 @@ void print_number(int n)
 		num /= 10;
 		divisor *= 10;
 	}
-	while (divisor != 1)
+	while (divisor != 0)
 	{
 		digit = n / divisor;
 		n = n - digit * divisor;
