@@ -6,7 +6,7 @@
   *
   * Return: 98
   */
-int _strlen(int *s)
+int _strlen(char *s)
 {
 	int counter;
 
