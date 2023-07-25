@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-  * print_rev - c
+  * rev_string - c
   * @s: p
   *
   * Return: 98
   */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i = 0;
 	int j = 0;
