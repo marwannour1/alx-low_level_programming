@@ -14,7 +14,7 @@ char *cap_string(char *str)
 	char delim[] = " \t\n,.!?\"(){}";
 
 	if (str[0] >= 'a' && str[0] <= 'z')
-		str[i] = str[i] - 'a' + 'A';
+		str[0] = str[0] - 'a' + 'A';
 	for (i = 1; str[i]; i++)
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
