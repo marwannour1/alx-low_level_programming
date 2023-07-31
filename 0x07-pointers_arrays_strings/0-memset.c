@@ -2,8 +2,8 @@
 
 /**
   * _memset - c
-  * @dest: p
-  * @src: n
+  * @s: p
+  * @b: n
   * @n: n
   * Return: 98
   */
