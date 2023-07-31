@@ -2,19 +2,19 @@
 
 /**
   * _strstr- c
-  * @s: p
-  * @accept: n
+  * @haystack: p
+  * @needle: n
   * Return: 98
   */
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i, j;
 
-	for (i = 0; s[i]; i++)
+	for (i = 0; haystack[i]; i++)
 	{
-		for (j = 0; needle[j] ; j++)
+		for (j = 0; needle[j]; j++)
 		{
-			if (s[i] == accept[j])
+			if (haystack[i] == needle[j])
 				continue;
 			else
 				break;
