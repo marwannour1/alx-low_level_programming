@@ -6,7 +6,7 @@
   * @accept: n
   * Return: 98
   */
-unsigned int *_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j;
 
