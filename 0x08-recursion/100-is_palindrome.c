@@ -22,7 +22,7 @@ int is_palindrome(char *s)
   * @end: y
   * Return: 98
   */
-int check(int *s, int start, int end)
+int check(char *s, int start, int end)
 {
 	if (start >= end)
 		return (1);
@@ -36,7 +36,7 @@ int check(int *s, int start, int end)
   * @s: p
   * Return: 98
   */
-int index(int *s)
+int index(char *s)
 {
 	int i = 0;
 
