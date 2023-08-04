@@ -16,7 +16,7 @@ int is_palindrome(char *s)
 }
 
 /**
-  * div - c
+  * check - c
   * @s: s
   * @start: p
   * @end: y
