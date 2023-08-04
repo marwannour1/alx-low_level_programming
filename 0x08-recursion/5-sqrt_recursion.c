@@ -23,6 +23,6 @@ int _sqrt(int n, int value)
 	if (value * value == n)
 		return (value);
 	if (value * value < n)
-		return (_sqrt(n, vlaue + 1));
+		return (_sqrt(n, value + 1));
 	return (-1);
 }
