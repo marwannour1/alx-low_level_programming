@@ -1,7 +1,7 @@
 #include "main.h"
 
 int check(char *s, int start, int end);
-int index(char *s);
+int _index(char *s);
 
 /**
   * is_palindrome - c
@@ -10,7 +10,7 @@ int index(char *s);
   */
 int is_palindrome(char *s)
 {
-	int end = index(s);
+	int end = _index(s);
 
 	return (check(s, 0, end));
 }
@@ -32,14 +32,13 @@ int check(char *s, int start, int end)
 }
 
 /**
-  * index - c
+  * _index - c
   * @s: p
   * Return: 98
   */
-int index(char *s)
+int __index(char *s)
 {
-	int i = 0;
-
 	if (*s == '\0')
-		return (i);
-	return (index(s + 1) + 1);
+		return (0);
+	return (__index(s + 1) + 1);
+}
