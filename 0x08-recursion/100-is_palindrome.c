@@ -36,9 +36,9 @@ int check(char *s, int start, int end)
   * @s: p
   * Return: 98
   */
-int __index(char *s)
+int _index(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (__index(s + 1) + 1);
+	return (_index(s + 1) + 1);
 }
