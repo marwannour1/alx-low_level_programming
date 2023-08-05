@@ -2,6 +2,8 @@ include "main.h"
 
 /**
   * main - entry Point
+  * @argc: argument count
+  * @argv: argument vector
   *
   * Return: Always 0 (success)
   */
