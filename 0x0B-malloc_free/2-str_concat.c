@@ -28,4 +28,5 @@ char *str_concat(char *s1, char *s2)
 			sp[i] = s2[i];
 	}
 	sp[i] = '\0';
+	return (sp);
 }
