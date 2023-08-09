@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	for (i = 0; i <= size1 + size2; i++)
 	{
-		if (i <= size1)
+		if (i < size1)
 			sp[i] = s1[i];
 		else
 			sp[i] = s2[i - size1];
