@@ -1,1 +1,1 @@
-My C repository
+programming with c
