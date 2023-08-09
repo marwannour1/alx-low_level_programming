@@ -23,13 +23,15 @@ char *str_concat(char *s1, char *s2)
 		size1++;
 	while (s2[size2])
 		size2++;
-	sp = malloc(size1 + size2 * sizeof(*s1) + 1);
+	sp = malloc((size1 + size2) * sizeof(*s1) + 1);
+	if (sp == NULL)
+		return (NULL);
 	for (i = 0; i <= size1 + size2; i++)
 	{
 		if (i <= size1)
 			sp[i] = s1[i];
 		else
-			sp[i] = s2[i];
+			sp[i] = s2[i - size1];
 	}
 	sp[i] = '\0';
 	return (sp);
