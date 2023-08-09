@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
-  * _strdup - creates an arrar with malloc
+  * str_concat - creates an arrar with malloc
   * @s1: size of array
   * @s2: s
   *
   * Return: a char
   */
-char *_strdup(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	int size1 = 0;
 	int size2 = 0;
