@@ -7,7 +7,7 @@
   *
   * Return: a char
   */
-char **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **gridp;
 	int i, j;
