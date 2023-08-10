@@ -2,8 +2,8 @@
 
 /**
   * alloc_grid - creates an arrar with malloc
-  * @s1: size of array
-  * @s2: s
+  * @width: size of array
+  * @height: s
   *
   * Return: a char
   */
@@ -11,7 +11,7 @@ int **alloc_grid(int width, int height)
 {
 	int **gridp;
 	int i, j;
-	
+
 	if (width <= 0 || height <= 0)
 		return (NULL);
 	gridp = malloc(height * sizeof(*gridp));
@@ -22,7 +22,7 @@ int **alloc_grid(int width, int height)
 		gridp[i] = malloc(width * sizeof(**gridp));
 		if (gridp[i] == NULL)
 		{
-			while(i--)
+			while (i--)
 				free(gridp[i]);
 			free(gridp);
 			return (NULL);
