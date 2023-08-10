@@ -23,7 +23,7 @@ int _strlen(char *s)
 char *argstostr(int ac, char **av)
 {
 	char *sp;
-	int i, j, index
+	int i, j, index = 0;
 	int totalsize = 0;
 
 	if (ac == 0 || av == NULL)
