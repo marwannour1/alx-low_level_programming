@@ -8,10 +8,11 @@
   */
 int _strlen(char *s)
 {
-	int size = 0;
+	unsigned int size = 0;
 
 	while (s[size])
 		size++;
+	return (size);
 }
 
 /**
@@ -23,7 +24,7 @@ int _strlen(char *s)
   */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int size1, i;
+	unsigned int size1, size2, i;
 	char *m;
 
 	if (s1 == NULL)
