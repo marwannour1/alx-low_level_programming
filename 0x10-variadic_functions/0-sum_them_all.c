@@ -12,7 +12,7 @@ int sum_them_all(const unsigned int n, ...)
 	va_list ap;
 	int i = n, sum = 0;
 
-	if (n == 0)
+	if (!n)
 		return (0);
 	va_start(ap, n);
 	while (i--)
