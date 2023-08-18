@@ -15,7 +15,7 @@ int print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (!n)
 	{
-		printf("\n")
+		printf("\n");
 		return (0);
 	}
 	va_start(ap, n);
