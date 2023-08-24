@@ -20,7 +20,7 @@ int _strlen(char *s)
 		s++;
 	}
 	return (i);
-};
+}
 
 /**
  * struct list_s - singly linked list
