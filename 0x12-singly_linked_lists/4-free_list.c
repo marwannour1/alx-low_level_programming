@@ -19,5 +19,6 @@ void free_list(const list_t *h)
 		free(node);
 		node = next_node;
 	}
+	return;
 }
 
