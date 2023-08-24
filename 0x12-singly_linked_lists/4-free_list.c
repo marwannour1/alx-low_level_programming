@@ -6,7 +6,7 @@
   *
   * Return: number of nodes
   */
-void free_list(const list_t *h)
+void free_list(list_t *h)
 {
 	list_t *node, *next_node;
 	if (!head)
