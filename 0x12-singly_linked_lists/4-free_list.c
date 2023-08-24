@@ -2,7 +2,7 @@
 
 /**
   * free_list - print elements of a list_t
-  * @h: head of list
+  * @head: head of list
   *
   * Return: number of nodes
   */
@@ -19,6 +19,5 @@ void free_list(list_t *head)
 		free(node);
 		node = next_node;
 	}
-	return;
 }
 
