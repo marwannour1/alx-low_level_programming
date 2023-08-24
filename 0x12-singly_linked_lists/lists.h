@@ -6,6 +6,22 @@
 #include <string.h>
 
 /**
+  * _strlen - dgfd
+  * @s: jhdfj
+  * Return: dhfhd
+  */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (*s)
+	{
+		i++;
+		s++;
+	}
+	return (i);
+}
+/**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
