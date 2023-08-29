@@ -5,14 +5,14 @@
   * @h: head of list
   *
   * Return: number of nodes
-  */
+i  */
 size_t print_listint(const listint_t *h)
 {
 	unsigned int num_nodes = 0;
 
 	while (h != NULL)
 	{
-		printf("[%d\n", h->n);
+		printf("%d\n", h->n);
 		h = h->next;
 		num_nodes++;
 	}
