@@ -20,8 +20,4 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
-size_t listint_len(const list_t *h);
-listint_t *add_nodeint(list_t **head, const char *str);
-listint_t *add_nodeint_end(list_t **head, const char *str);
-void free_listint(list_t *head);
 #endif /* MAIN_H */
