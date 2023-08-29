@@ -5,7 +5,7 @@
   * @h: head of list
   *
   * Return: number of nodes
-i  */
+  */
 size_t print_listint(const listint_t *h)
 {
 	unsigned int num_nodes = 0;
