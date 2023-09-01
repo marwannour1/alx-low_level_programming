@@ -18,5 +18,5 @@ unsigned int binary_to_unit(const char *b)
 			return (0);
 		result = result * 2 + (*b++ - '0');
 	}
-	return (result)
+	return (result);
 }
