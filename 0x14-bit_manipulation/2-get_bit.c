@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * get_int - dhdhf
+  * get_bit - dhdhf
   * @n: dhfh
   * @index: dhfhd
   * Return: dhfhd
