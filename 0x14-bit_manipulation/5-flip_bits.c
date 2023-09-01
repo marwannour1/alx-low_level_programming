@@ -3,10 +3,10 @@
 /**
   * flip_bits - dhdhf
   * @n: dhfh
-  * @index: dhfhd
+  * @m: dhfhd
   * Return: dhfhd
   */
-unsigned int clear_bit(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int mask = n ^ m;
 	unsigned int count = 0;
