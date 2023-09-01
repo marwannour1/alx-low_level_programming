@@ -12,7 +12,7 @@ unsigned int binary_to_unit(const char *b)
 
 	if (!b)
 		return (0);
-	while (*ptr)
+	while (*b)
 	{
 		if (!(*b == '0' || *b == '1'))
 			return (0);
