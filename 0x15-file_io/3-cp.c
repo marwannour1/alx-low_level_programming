@@ -8,7 +8,7 @@
   */
 int main(int ac, char **av)
 {
-	int file_from, file_to;
+	int file_from = 0, file_to = 0;
 	ssize_t size;
 	char buffer[1024];
 
@@ -36,6 +36,11 @@ int main(int ac, char **av)
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
 			exit(99);
 		}
+	}
+	if (size == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
+		exit(98);
 	}
 	file_from = close(file_from);
 	file_to = close(file_to);
