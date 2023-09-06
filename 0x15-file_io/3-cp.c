@@ -31,7 +31,7 @@ int main(int ac, char **av)
 	}
 	while ((size = read(file_from, buffer, 1024)) > 0)
 	{
-		if (size == write(file_to, buffer, 1024))
+		if (size != write(file_to, buffer, 1024))
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
 			exit(99);
